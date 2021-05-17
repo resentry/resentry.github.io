@@ -118,7 +118,7 @@ body{
 .slick-arrow.slick-prev{
     margin-left: 25px;
     left: 0;
-    background: url(/img/slider/arrow/pointer_left.png) 0 0 no-repeat;
+    background: url(img/slider/arrow/pointer_left.png) 0 0 no-repeat;
     background-size: cover;
     border: unset;
 }
@@ -126,7 +126,7 @@ body{
 .slick-arrow.slick-next{
     margin-right: 25px;
     right: 0;
-    background: url(/img/slider/arrow/pointer_right.png) 0 0 no-repeat;
+    background: url(img/slider/arrow/pointer_right.png) 0 0 no-repeat;
     background-size: cover;
     border: unset;
 }
@@ -257,7 +257,7 @@ body{
     font-weight: 500;
 }
 .design{
-    background: url(/img/design.jpg);
+    background: url(img/design.jpg);
     background-size: cover;
     transition: 0.5s;
 }
@@ -265,7 +265,7 @@ body{
     transform: scale(1.1);
 }
 .prod{
-    background: url(/img/prod.jpg) right;
+    background: url(img/prod.jpg) right;
     background-size: cover;
     transition: 0.5s;
 }
@@ -273,7 +273,7 @@ body{
     transform: scale(1.1);
 }
 .install{
-    background: url(/img/install.jpg) center;
+    background: url(img/install.jpg) center;
     background-size: cover; 
     transition: 0.5s;
 }
@@ -321,12 +321,12 @@ body{
 }
 .news-img1{
     height: 60%;
-    background: url(/img/news1.PNG) center;
+    background: url(img/news1.PNG) center;
     background-size: cover;
 }
 .news-img2{
     height: 60%;
-    background: url(/img/news2.PNG) center;
+    background: url(img/news2.PNG) center;
     background-size: cover;
 }
 .news-text{
@@ -362,27 +362,6 @@ body{
 .about-us{
     background: #ffffff;
     border-top: 1px solid rgba(75, 75, 75, 0.192);
-}
-.text-about{
-    height: 500px;
-    padding: 15px 20px;
-    margin-bottom: 50px;
-}
-.img-aboout{
-    background: url(/img/_MG_7320.JPG) center;
-    background-size: cover;
-    height: 500px;
-    box-shadow: 0 0 30px 40px white inset;
-}
-.text-about p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 400;   
-}
-.text-about .head-text{
-    font-size: 20px;
-    font-weight: 500;
-}
 /* Нижний слайдер начало*/
 /* Слайдер */
 .slick-slider{}
