@@ -362,6 +362,22 @@ body{
 .about-us{
     background: #ffffff;
     border-top: 1px solid rgba(75, 75, 75, 0.192);
+}
+.img-aboout{
+    background: url(../img/about.jpg) center;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 0 0 30px 40px white inset;
+}
+.text-about p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;   
+}
+.text-about .head-text{
+    font-size: 20px;
+    font-weight: 500;
+}
 /* Нижний слайдер начало*/
 /* Слайдер */
 .slick-slider{}
