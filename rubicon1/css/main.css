@@ -401,13 +401,13 @@ body{
 .slides-botom {
     position: relative;
 }
-.slides-botom__item{
+.slides-botom__item img{
     text-align: center;
     padding: 15px;
     filter: grayscale(100%);
     transition: 0.5s;
 }
-.slides-botom__item:hover{
+.slides-botom__item img:hover{
     filter: grayscale(0%);
 }
 
