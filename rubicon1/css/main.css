@@ -321,12 +321,12 @@ body{
 }
 .news-img1{
     height: 60%;
-    background: url(img/news1.PNG) center;
+    background: url(../img/news1.PNG) center;
     background-size: cover;
 }
 .news-img2{
     height: 60%;
-    background: url(img/news2.PNG) center;
+    background: url(../img/news2.PNG) center;
     background-size: cover;
 }
 .news-text{
