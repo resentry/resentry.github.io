@@ -50,7 +50,7 @@ body{
     text-decoration: none;
 }
 .menu__more:hover{
-    content: url(img/angle-arrow-down-orange.png);
+    content: url(../img/angle-arrow-down-orange.png);
 }
 .slider-main{
     
@@ -118,7 +118,7 @@ body{
 .slick-arrow.slick-prev{
     margin-left: 25px;
     left: 0;
-    background: url(img/slider/arrow/pointer_left.png) 0 0 no-repeat;
+    background: url(../img/slider/arrow/pointer_left.png) 0 0 no-repeat;
     background-size: cover;
     border: unset;
 }
@@ -126,7 +126,7 @@ body{
 .slick-arrow.slick-next{
     margin-right: 25px;
     right: 0;
-    background: url(img/slider/arrow/pointer_right.png) 0 0 no-repeat;
+    background: url(../img/slider/arrow/pointer_right.png) 0 0 no-repeat;
     background-size: cover;
     border: unset;
 }
@@ -257,7 +257,7 @@ body{
     font-weight: 500;
 }
 .design{
-    background: url(img/design.jpg);
+    background: url(../img/design.jpg);
     background-size: cover;
     transition: 0.5s;
 }
@@ -265,7 +265,7 @@ body{
     transform: scale(1.1);
 }
 .prod{
-    background: url(img/prod.jpg) right;
+    background: url(../img/prod.jpg) right;
     background-size: cover;
     transition: 0.5s;
 }
@@ -273,7 +273,7 @@ body{
     transform: scale(1.1);
 }
 .install{
-    background: url(img/install.jpg) center;
+    background: url(../img/install.jpg) center;
     background-size: cover; 
     transition: 0.5s;
 }
