@@ -1,0 +1,485 @@
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo__main{
+    margin-top: 6px;
+    width: 100%;
+}
+.call {
+    margin-top: 10px;
+}
+.call a{
+    border: 1px solid #ff6f00;
+    padding: 10px 20px;
+    color: #ff6f00;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.call:hover a{
+    background: #ff6f00;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__item a{  
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #ffffff!important;
+}
+.navbar .navbar-nav li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #222!important;
+    text-decoration: none;
+}
+.navbar .navbar-nav li a:hover{
+    color: #ff6f00!important;
+}
+.navbar-toggler{
+    background-color: #08c;
+    opacity: 0.5;
+}
+@media (max-width: 991px) { 
+    .call{
+        margin-bottom: 10px;
+    }
+}
+.shadow{
+    box-shadow: 0px 0px 0px 100px #000000;
+}
+/* Верхний слайдер начало  */
+.slider-top video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+/* Верхний слайдер конец  */
+.services{
+    margin-top: 45px;
+}
+.services-header p{
+    text-align:center;
+    height: 70px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.line{
+    width: 300px;
+    height: 3px;
+    background: #08c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.all-servicess{
+    width: 100%;
+    height: 300px;
+}
+.all-servicess img{
+    width: 100%;
+    height: 300px;
+}
+
+.services-name{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    border: 1px solid #08c;
+    background: rgba(0, 136, 204, 0.671);
+    color: #ffffff;
+    border-radius: 3px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-name:hover{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    border: 1px solid #ff6f00;
+    background: #ff6f00;
+    color: #ffffff;
+    border-radius: 3px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.design{
+    background: url(/img/design.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.design:hover{
+    transform: scale(1.1);
+}
+.prod{
+    background: url(/img/prod.jpg) right;
+    background-size: cover;
+    transition: 0.5s;
+}
+.prod:hover{
+    transform: scale(1.1);
+}
+.install{
+    background: url(/img/install.jpg) center;
+    background-size: cover; 
+    transition: 0.5s;
+}
+.install:hover{
+    transform: scale(1.1);
+}
+.shroud{
+    background: rgba(0, 136, 204, 0.192);
+    width: 100%;
+    height: 100%;
+    padding-top: 230px;
+}
+.shroud:hover{
+    background: rgba(0, 136, 204, 0);
+}
+.news-header p{
+    text-align:left;
+    height: 70px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-news{
+    margin-top: 25px;
+}
+.main-news .line{
+    background: #ff6f00;
+    margin-left: 0;
+}
+.news{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgba(75, 75, 75, 0.192);
+    background: white;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.news:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.news-date{
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 255, 255);
+}
+.news-img1{
+    height: 60%;
+    background: url(/img/news1.PNG) center;
+    background-size: cover;
+}
+.news-img2{
+    height: 60%;
+    background: url(/img/news2.PNG) center;
+    background-size: cover;
+}
+.news-text{
+    height: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 15px;
+}
+.news-date{
+    height: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding: 7px 7px 7px 15px;
+    color: rgba(34, 34, 34, 0.521);
+}
+.all-news{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -10px;
+    text-align: right;
+}
+.all-news a{
+    color: #08c;
+    text-decoration: none;
+}
+.all-news a:hover{
+    color: #ff6f00;
+}
+.about-us{
+    margin-top: 20px;
+    padding: 20px 0;
+    background: #ffffff;
+    border-top: 1px solid rgba(75, 75, 75, 0.192);
+    border-bottom: 1px solid rgba(75, 75, 75, 0.192);
+}
+.text-about{
+    height: 500px;
+    padding: 15px 20px;
+    
+}
+.img-aboout{
+    background: url(/img/about.jpg);
+    background-size: cover;
+    height: 500px;
+    box-shadow: 0 0 30px 40px white inset;
+}
+.text-about p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;   
+}
+.text-about .head-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Нижний слайдер начало*/
+.slides-botom {
+    position: relative;
+}
+.slides-botom__item img{
+    text-align: center;
+    padding: 15px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.slides-botom__item img:hover{
+    filter: grayscale(0%);
+}
+/* Нижний слайдер конец*/
+
+/* Подвал начало */
+    footer{
+        margin-top: 35px;
+        background: #373d44;
+        height: 535px;
+    }
+    
+    .sign{
+        height: 94px;
+        background: #41474e;
+        
+    }
+    .sign__text{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .form-control{
+        border-radius: 2px;
+        height: 42px;
+    }
+    .btn{
+        border-radius: 2px;
+        height: 42px;
+        background: #08c; 
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        width: 250px;
+    }
+    .icon__message{
+        background: url(/img/icons/envelope-open.svg) center;
+        background-size: cover;
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+        opacity: 50%;
+        filter: invert(100%);
+    }
+    .logo{
+        margin-top: 40px;
+    }
+    .logo img{
+        width: 250px;
+    }
+    .logo p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: white;
+        margin-top: 15px;
+    }
+    .cert{
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .cert a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .cert a:hover{
+        color: #ff6f00;
+    }
+    .polit{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .polit a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .polit a:hover{
+        color: #ff6f00;
+    }
+    .contacts{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .contacts p{
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .contacts__m .contacts_b{
+        padding-left: 50px;
+    }
+    .contacts__m p, .contacts_b p{
+        font-weight: 300;
+    }
+    .call__logo::before{  
+        content: "";
+        width: 1em;
+        height: 1em;
+        background-image: url(/img/icons/telephone.svg);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 15px;
+        transition: transform 0.3s;
+        opacity: 50%;
+        filter: invert(100%);
+    }
+    .nav__logo::before{  
+        content: "";
+        width: 1em;
+        height: 1em;
+        background-image: url(/img/icons/geo-alt.svg);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 15px;
+        transition: transform 0.3s;
+        opacity: 50%;
+        filter: invert(100%);
+    }
+    .email_logo:before{
+        content: "";
+        width: 1em;
+        height: 1em;
+        background-image: url(/img/icons/envelope.svg);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 15px;
+        transition: transform 0.3s;
+        opacity: 50%;
+        filter: invert(100%);
+    }
+    hr{
+        margin-top: 40px;
+        color: grey;
+        size: 2px;
+    }
+    .social_vk{
+        content: "";
+        width: 40px;
+        height: 40px;
+        background-image: url(/img/icons/vk.svg);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        opacity: 80%;
+    }
+    .social_vk:hover{
+        opacity: 100%;
+    }
+    .social_fb{
+        content: "";
+        width: 40px;
+        height: 40px;
+        background-image: url(/img/icons/facebook.svg);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        opacity: 80%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .social_fb:hover{
+        opacity: 100%;
+    }
+    .social_yt{
+        content: "";
+        width: 40px;
+        height: 40px;
+        background-image: url(/img/icons/youtube.svg);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        opacity: 80%;
+        margin-right: 100px;
+    }
+    .social_yt:hover{
+        opacity: 100%; 
+    }
+    .skillfond{
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+/* Подвал конец */
