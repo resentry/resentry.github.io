@@ -12,7 +12,7 @@ h3{
 }
 #menuItemIconMenu{
     width: 250px;
-    background: url(/img/logo.png) center no-repeat;
+    background: url(../img/logo.png) center no-repeat;
     background-size:contain;
 }
 .call {
@@ -142,7 +142,7 @@ h3{
     font-weight: 500;
 }
 .design{
-    background: url(/img/design.jpg);
+    background: url(../img/design.jpg);
     background-size: cover;
     transition: 0.5s;
 }
@@ -150,7 +150,7 @@ h3{
     transform: scale(1.1);
 }
 .prod{
-    background: url(/img/prod.jpg) right;
+    background: url(../img/prod.jpg) right;
     background-size: cover;
     transition: 0.5s;
 }
@@ -158,7 +158,7 @@ h3{
     transform: scale(1.1);
 }
 .install{
-    background: url(/img/install.jpg) center;
+    background: url(../img/install.jpg) center;
     background-size: cover; 
     transition: 0.5s;
 }
@@ -209,12 +209,12 @@ h3{
 }
 .news-img1{
     height: 60%;
-    background: url(/img/news1.PNG) center;
+    background: url(../img/news1.PNG) center;
     background-size: cover;
 }
 .news-img2{
     height: 60%;
-    background: url(/img/news2.PNG) center;
+    background: url(../img/news2.PNG) center;
     background-size: cover;
 }
 .news-text{
@@ -260,7 +260,7 @@ h3{
     
 }
 .img-aboout{
-    background: url(/img/about.jpg);
+    background: url(../img/about.jpg);
     background-size: cover;
     height: 500px;
     box-shadow: 0 0 30px 40px white inset;
@@ -321,7 +321,7 @@ h3{
         width: 250px;
     }
     .icon__message{
-        background: url(/img/icons/envelope-open.svg) center;
+        background: url(../img/icons/envelope-open.svg) center;
         background-size: cover;
         margin-right: 30px;
         width: 50px;
@@ -392,7 +392,7 @@ h3{
         content: "";
         width: 1em;
         height: 1em;
-        background-image: url(/img/icons/telephone.svg);
+        background-image: url(../img/icons/telephone.svg);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -406,7 +406,7 @@ h3{
         content: "";
         width: 1em;
         height: 1em;
-        background-image: url(/img/icons/geo-alt.svg);
+        background-image: url(../img/icons/geo-alt.svg);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -420,7 +420,7 @@ h3{
         content: "";
         width: 1em;
         height: 1em;
-        background-image: url(/img/icons/envelope.svg);
+        background-image: url(../img/icons/envelope.svg);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -439,7 +439,7 @@ h3{
         content: "";
         width: 40px;
         height: 40px;
-        background-image: url(/img/icons/vk.svg);
+        background-image: url(../img/icons/vk.svg);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -453,7 +453,7 @@ h3{
         content: "";
         width: 40px;
         height: 40px;
-        background-image: url(/img/icons/facebook.svg);
+        background-image: url(../img/icons/facebook.svg);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -469,7 +469,7 @@ h3{
         content: "";
         width: 40px;
         height: 40px;
-        background-image: url(/img/icons/youtube.svg);
+        background-image: url(../img/icons/youtube.svg);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
