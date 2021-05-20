@@ -11,6 +11,11 @@ h3{
     margin-top: 6px;
     width: 100%;
 }
+#menuItemIconMenu{
+    width: 250px;
+    background: url(/img/logo.png) center no-repeat;
+    background-size:contain;
+}
 .call {
     margin-top: 10px;
 }
