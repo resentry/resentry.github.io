@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <b>Введите показания счетчика в прошлом месяце</b>
+    <br>
+    <br>
+    <input form="text" id="last-Month" class="input" inputmode="tel">
+    <br>
+    <br>
+    <b>Введите показания счетчика на данный момент - </b><input type="date" id="date">
+    <br>
+    <br>
+    <input form="text" id="this-Month" class="input" inputmode="tel">
+    <br>
+    <br>
+    <button onclick="calc()" class="button">Расчитать показания на конец этого месяца</button>
+    <button id="button" class="button color">Сбросить</button>
+    <br>
+    <br>
+    <b id=out class="out"></b>
+    <script src="main.js"></script>
+    <br>
+    <output form="text" class="out"></output>
+</body>
+
+</html>

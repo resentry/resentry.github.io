@@ -1,0 +1,27 @@
+.input {
+    width:90%;
+    padding: 10px;
+    border: 2px solid rgb(10, 107, 54);
+    border-radius: 10px;
+    background-color: rgb(154, 177, 112);
+  
+}
+* {
+    font-size: 150%;
+    text-align: center;
+}
+.button {
+    width:91.5%;
+    padding: 10px;
+    border: 2px solid rgb(10, 107, 54);
+    border-radius: 10px;
+    background-color: cornflowerblue;
+ 
+}
+.out {
+    color: crimson;
+}
+.color{
+    margin-top: 45px;
+    background-color: rgb(236, 222, 17);
+}
