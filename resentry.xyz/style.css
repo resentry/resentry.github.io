@@ -1,0 +1,433 @@
+ body {  
+    background-color: #eceef2;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+  }
+  .auth{
+      background-color: white;
+      margin-top: 110px;
+      margin-left: auto;
+      margin-right: auto;
+      height:127px;
+      width: 330px;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .auth a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .auth_login{
+    display: flex;
+    margin: auto;
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px; 
+  }
+  .auth_login span{
+    font-family: 'Yandex Sans Medium';
+      display: block;
+      margin: auto;
+  }
+  .auth_signup{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: #ff7b00;
+    border: 2px solid #ff7b00;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px; 
+  }
+  .auth_signup span{
+    font-family: 'Yandex Sans Medium';
+    display: block;
+    margin: auto;
+}
+.formAuth{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: white;
+    height:184px;
+    width: 330px;
+    transition: .6s;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.enter{
+    margin: auto;
+    width: 300px;
+    height: 44px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Yandex Sans Medium';
+    font-size: 16px;
+    background-color: #ffcc00;
+    cursor: pointer;
+}
+.do_signup{
+    margin: auto;
+    width: 300px;
+    height: 44px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Yandex Sans Medium';
+    font-size: 16px;
+    background-color: #ff7b00;
+    cursor: pointer;
+}
+  .display{
+      display: flex;
+      padding: 0 20px;
+      
+  }
+    
+  .chart-container {
+    position: relative;
+    margin-left: auto;
+    height: 70vh;
+    width: 100%;
+    transition: 1s ;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .addMenuVisible{
+    margin-right: auto;
+    height: 355px;
+    width: 330px;
+    transition: 1s;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .addMenu{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    transition: 1s ;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .delMenuVisible{
+      margin-right: auto;
+      background-color: white;
+      height:184px;
+      width: 330px;
+      transition: 1s;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+  }
+  .delMenu{
+    height:0px;
+    width: 0px;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+  }
+  .chart-containerAction {
+    width: 75%;
+    transition: 1s;
+  }
+  .change{
+    margin-top: 400px;
+    position: absolute;
+    width: 100%;
+  }
+  @font-face {
+    font-family: 'Yandex Sans Regular';
+    src: url(fonts/YandexSansDisplay-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Yandex Sans Medium';
+    src: url(fonts/YandexSansText-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Yandex Sans Bold';
+    src: url(fonts/YandexSansText-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .menu{
+      margin: 0;
+      background-color: white;
+      z-index: 10;
+      width: 100%;
+      margin-bottom: 13px;
+  }
+  .logout{
+      text-decoration: none;
+      color: black;
+  }
+  .logout:hover{
+    cursor: pointer;
+    color: #dd0000; 
+  }
+ul{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgba(124, 124, 124, 0.459);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+li{
+    display: block;
+}
+.login{
+    margin-left: auto;
+    margin-right: 20px;
+}
+#name{
+    font-family: 'Yandex Sans Regular';
+}
+.menu p{
+    font-family: 'Yandex Sans Medium';
+}
+
+.menu p:hover{
+    cursor: pointer;
+    color: #dd0000;
+}
+.check{
+    color: #dd0000;
+}
+p{
+    margin-left: 20px;
+}
+
+.inputData{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    border-radius: 15px;  
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    transition: 1s ;
+    opacity: 1;
+}
+.inputDataHidden{
+    width: 0px;
+    height: 0px;
+    transition: 1s;
+    font-size: 0;
+    opacity: 0;
+}
+
+.hidden{
+  width: 0;
+  height: 0;
+  transition: 1s;
+  opacity: 0;
+}
+.sign{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Yandex Sans Regular';
+    white-space: nowrap;
+    width: 200px;
+}
+.input{
+    margin-top: -2px;
+    margin-right: -2px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+}
+#electric, #water, #gas, #month, .year, #monthDel{
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    border: none;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Yandex Sans Regular';
+    background-color: transparent;
+}
+.colorGas{
+    background-color: #ffcc00;
+}
+.colorGasBorder{
+    border: 2px solid #ffcc00;
+}
+.colorWater{
+    background-color: #75a2e7;
+}
+.colorWaterBorder{
+    border: 2px solid #75a2e7;
+}
+.colorElectric{
+    background-color: #fc3f1d;
+}
+.colorElectricBorder{
+    border: 2px solid #fc3f1d;
+}
+.colorMonth{
+    background-color: #7ad8a8;
+}
+.colorMonthBorder{
+    border: 2px solid #7ad8a8;
+}
+.colorYear{
+    background-color: #a2aabb;
+}
+.colorYearBorder{
+    border: 2px solid #a2aabb;
+}
+.colorEmail{
+    background-color: #c87ad8;
+}
+.colorEmailBorder{
+    border: 2px solid #c87ad8;
+}
+.colorAdd{
+    background-color: #ff7b00;
+    cursor: pointer;
+    margin-bottom: auto;
+}
+.colorAddBorder{
+    border: 2px solid #ff7b00;
+}
+.colorAdd .sign{
+    text-align: center;
+    width: 100%;
+}
+.colorDel{
+    background-color: black;
+    cursor: pointer;
+    margin-bottom: auto;
+}
+.colorDelBorder{
+    border: 2px solid black;
+}
+.colorDel .sign{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.shake{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+.alert{
+    background-color: #fc3f1d !important;
+}
+.alertMessage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 16px;
+    font-family: 'Yandex Sans Medium';
+    color: #fc3f1d;
+    opacity: 0;
+    transition: 1s;
+}
+.okMessage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Yandex Sans Medium';
+    color: #60ca5d;
+    transition: 1s;
+}
+.bodyLogin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.bodySignup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.formSignup{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: white;
+    height:298px;
+    width: 330px;
+    transition: .6s;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.bodyOkMessage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.authAfterSignup{
+    background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      height:127px;
+      width: 330px;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+}
+.authAfterSignup a{
+    text-decoration: none;
+    color: black;
+  }
