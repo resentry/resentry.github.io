@@ -9,7 +9,6 @@ document.getElementsByClassName('nowYear')[0].value = year.getFullYear();
 document.getElementsByClassName('nowYear')[1].value = year.getFullYear();
 showAllData()
 dataOutput();
-document.getElementsByClassName('body')[0]
 var ctx = document.getElementById('chart').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'line',
