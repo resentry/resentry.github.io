@@ -19,7 +19,6 @@ if(count($stack) > 0){
 }
 else{
   $namedb ='INSERT INTO'.' '. $_POST["name"].' '.'(`date`, `electric`, `water`, `gas`) VALUES (?,?,?,?)';
-  // echo $namedb;
   $stmt = $conn->prepare($namedb);
   $rows = [
       ['date' => $_POST["year"]." ".$_POST["month"], 'electric' => $_POST["electric"],'water' => $_POST["water"],'gas' => $_POST["gas"]]
